@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'JOIN👍', url="https://t.me/MCUpdatesChan"
+                                    'JOIN📺', url="https://t.me/mcupdateschan"
                                 )
                         ]
                     ]
@@ -52,7 +52,7 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/mc_movie_requests')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="start")
+        InlineKeyboardButton('Help ⚙', url='https://t.me/mc_movie_requests')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -74,7 +74,6 @@ async def help(bot, update):
         InlineKeyboardButton('About 🚩', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
-        InlineKeyboardButton('M&C MOVIES', url='https://t.me/mc_movie_requests')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
