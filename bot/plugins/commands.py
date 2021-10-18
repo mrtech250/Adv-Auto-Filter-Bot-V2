@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'M&C Support', url="https://t.me/MCUpdatesChan"
+                                    'Support', url="https://t.me/MCUpdatesChan"
                                 )
                         ]
                     ]
